@@ -8,41 +8,9 @@ import {
 } from '@fluentui/react-components'
 import { useState } from 'react'
 import type { CSSProperties } from 'react'
-//import intents from '../data/intents.json'
+import intents from '../data/intents.json'
 
 function MyTable() {
-
-    const intents = [
-        {
-            "intentNumber": "PG100000",
-            "description": "Description for Intent 1",
-            "intentLifecycleStage": "Pre-Construction"
-        },
-        {
-            "intentNumber": "PG100001",
-            "description": "Description for Intent 2",
-            "intentLifecycleStage": "Post-Construction"
-        },
-        {
-            "intentNumber": "PG100002",
-            "description": "Description for Intent 3",
-            "intentLifecycleStage": "Pre-Construction"
-        },
-        {
-            "intentNumber": "PG100003",
-            "description": "Description for Intent 4",
-            "intentLifecycleStage": "Post-Construction"
-        },
-        {
-            "intentNumber": "PG100004",
-            "description": "Description for Intent 5",
-            "intentLifecycleStage": "Pre-Construction"
-        },
-        {
-            "intentNumber": "PG100005",
-            "description": "Description for Intent 6",
-            "intentLifecycleStage": "Post-Construction"
-        }];
 
     const recordsPerPage = 100;
     const [currentPage, setCurrentPage] = useState(1);
