@@ -27,7 +27,7 @@ Fast intent record browsing for Power Apps with searchable, filterable, paginate
 
 ### Prerequisites
 
-- Node.js 20+
+- Node.js 22 or higher
 - npm
 
 ### Install
