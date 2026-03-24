@@ -79,3 +79,4 @@ The app currently reads intent records from [src/data/intents.json](src/data/int
 React and Fluent UI Power Apps code app for browsing intent records with search, filters, pagination, and lifecycle stage highlighting.
 # joint-pole-application
 # joint-pole-application
+# joint-pole-application
