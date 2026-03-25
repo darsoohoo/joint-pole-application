@@ -8,9 +8,18 @@ import {
 } from '@fluentui/react-components'
 import { useState } from 'react'
 import type { CSSProperties } from 'react'
-import intents from '../data/intents.json'
+//import intents from '../data/intents.json'
 
 function MyTable() {
+
+const intents: { intentNumber: string; description: string; intentLifecycleStage: string }[] = [
+    {
+        "intentNumber": "PG10000", description: "Install solar panels on the roof of the building", intentLifecycleStage: "Pre-Construction"
+    },
+    { "intentNumber": "PG100002", description: "Upgrade HVAC system to improve energy efficiency", intentLifecycleStage: "Post-Construction" },
+    { "intentNumber": "PG100003", description: "Implement rainwater harvesting system", intentLifecycleStage: "Pre-Construction" },
+    { "intentNumber": "PG100004", description: "Replace windows with double-glazed units", intentLifecycleStage: "Post-Construction" }
+];
 
     const recordsPerPage = 100;
     const [currentPage, setCurrentPage] = useState(1);
